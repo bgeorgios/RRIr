@@ -88,10 +88,10 @@ ggplot() +
 
 # save inundation depth image
 ggsave(
-  "vizHs.png",
+  "Hs.png",
   device = "png",
   unit = "in",
   height = 4.5,
   width = 7,
-  dpi = 350
+  dpi = 300
 )

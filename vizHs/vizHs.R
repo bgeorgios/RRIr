@@ -93,5 +93,5 @@ ggsave(
   unit = "in",
   height = 4.5,
   width = 7,
-  dpi = 300
+  dpi = 350
 )

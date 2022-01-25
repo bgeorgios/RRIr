@@ -1,1 +1,1 @@
-The script *vizQr.R* is meant for visualizing a hydrograph at a selected river point from a collection of RRI **qr.out** files (example files are provided). The script also requires an RRI **time.dat** and **RRI_input.txt** file, both found at an RRI project folder.
+The script *vizQr.R* is meant for visualizing a hydrograph at a selected river point from a collection of RRI **qr.out** files. The script also requires an RRI **time.dat** and **RRI_input.txt** file, both found at an RRI project folder.

@@ -1,0 +1,100 @@
+RRI_Input_Format_Ver1_4_2
+solo30s
+./rain/rain_.dat
+./topo/adem.txt
+./topo/acc.txt
+./topo/adir.txt
+
+0    # utm(1) or latlon(0)
+1    # 4-direction (0), 8-direction(1)
+360    # lasth(hour)
+600    # dt(second)
+60    # dt_riv
+60    # outnum [-]
+110.400000   # xllcorner_rain
+-8.158333    # yllcorner_rain
+0.0083333333 0.0083333333    # cellsize_rain
+
+3.000d-2     # ns_river
+1    # num_of_landuse
+1    # diffusion(1) orr kinematic(0)
+4.000d-1     # ns_slope
+1.000d0     # soildepth
+4.750d-1     # gammaa
+
+0.000d0     # ksv
+3.163d-1     # faif
+
+0.000d0     # ka
+0.000d0     # gammam
+8.000d0     # beta
+
+0.000d0     # kgv
+4.000d-1     # gammag
+5.000d-4     # tg
+3.000d-2     # fpg
+5.000d-1     # init_cond_gw
+
+20.0      # riv_thresh
+5.00d0      # width_param_c (2.5)
+3.50d-1      # width_param_s (0.4)
+9.50d-1      # depth_param_c (0.1)
+2.00d-1      # depth_param_s (0.4)
+0.00d0      # height_param
+20.0       # height_limit_param
+
+1
+./riv/width.txt
+./riv/depth.txt
+./riv/height.txt
+
+0  0  0  0
+./init/hs_init.out
+./init/hr_init.out
+./init/hg_init.out
+./init/gamptff_init.out
+
+0  0
+./bound/hs_wlev_bound.txt
+./bound/hr_wlev_bound.txt
+
+0  0
+./bound/qs_bound.txt
+./bound/qr_bound.txt
+
+0
+./topo/landuse.txt
+
+0
+./damcnt.txt
+
+0
+./div.txt
+
+0
+./rain/Evp.dat
+100.000000      # xllcorner_evp
+10.000000      # yllcorner_evp
+0.0083333300  0.0083333300     # cellsize
+
+0
+./riv/length.txt
+
+0
+./riv/sec_map.txt
+./riv/section/sec_
+
+1  1  0  1  0  0  0  0  1  1
+./out/hs_
+./out/hr_
+./out/hg_
+./out/qr_
+./out/qu_
+./out/qv_
+./out/gu_
+./out/gv_
+./out/gampt_ff_
+./out/storage.dat
+
+0
+./location.txt

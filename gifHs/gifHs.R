@@ -136,7 +136,7 @@ plotHs <- function(hs) {
 hs.plots <- lapply(hs.all, plotHs)
 
 # prepare each image for gif
-# here 30/60 images are used to speed-up running time
+# here 15/60 images are used as an example to speed-up running time
 img.list <- list()
 for (i in 1:30) {
   hs.plots[[i]] + labs(title = dates[i])

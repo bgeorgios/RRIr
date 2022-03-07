@@ -5,6 +5,8 @@ RRI (**Sayama et al. 2012**) is a 2D model capable of simulating rainfall-runoff
 
 The R scripts published here aim to aid preparation of model input data and visualization of model results with the use of a modern programming language.
 
+![screen-gif](./gifHs/gifHs.gif)
+
 ## Need Help?
 Need help using RRIr scripts? Found an issue? Have a feature request? Check out my
 [personal blog](http://www.gboumis.com) and contact me via my LinkedIn profile found at the header.

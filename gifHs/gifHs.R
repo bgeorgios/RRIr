@@ -138,7 +138,7 @@ hs.plots <- lapply(hs.all, plotHs)
 # prepare each image for gif
 # here 15/60 images are used as an example to speed-up running time
 img.list <- list()
-for (i in 1:30) {
+for (i in 5:20) {
   hs.plots[[i]] + labs(title = dates[i])
   ggsave(
     paste0("tempHs", ".png"),

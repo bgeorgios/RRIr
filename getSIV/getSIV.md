@@ -1,1 +1,1 @@
-The script *getSIV.R* can be used to first retrieve hourly rainfall data with a 4-km spatial resolution (Stage IV) across the US, and then prepare a ***rain.dat*** for to be used in the RRI simulation.
+The script *getSIV.R* can be used to first retrieve multi-sensor (gauges+radar) hourly rainfall data with a 4-km spatial resolution (Stage IV) across the US, and then prepare a ***rain.dat*** file to be used in the RRI simulation. The user has to input the year, the month, and the name code of the respective River Forecast Center (RFC) from which they request data.

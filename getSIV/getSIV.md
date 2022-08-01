@@ -1,1 +1,1 @@
-The script gifHs.R is meant for animating inundation depth i.e., creating a .gif file from a collection of RRI hs.out files. The script requires RRI time.dat and RRI_input.txt files, both found at an RRI project folder. An RRI dem.txt file, typically found inside the topo folder of an RRI project, is also required.
+The script *getSIV.R* can be used to first retrieve hourly rainfall data with a 4-km spatial resolution (Stage IV) across the US, and then prepare a ***rain.dat*** for to be used in the RRI simulation.

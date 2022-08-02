@@ -1,0 +1,1 @@
+*doSCE.R* implements the Shuffled Complex Evolution (SCE) algorithm for automatic calibration of RRI model parameters. The package *"hydromad"* must be previously installed, before running the script.

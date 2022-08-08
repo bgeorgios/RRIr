@@ -54,8 +54,8 @@ for (f in rain.files) {
         "rain.dat",
         ncol = 3,
         append = TRUE)
-  for (r in 1:nrow(mat)) {
-    write(mat[r,],
+  for (r in 1:ncol(mat)) {
+    write(mat[,r],
           "rain.dat",
           ncol = dim(mat)[2],
           append = TRUE)

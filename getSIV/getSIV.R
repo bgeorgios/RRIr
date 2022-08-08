@@ -57,7 +57,7 @@ for (f in rain.files) {
   for (r in 1:ncol(mat)) {
     write(mat[,r],
           "rain.dat",
-          ncol = dim(mat)[2],
+          ncol = dim(mat)[1],
           append = TRUE)
   }
   step <- step + 3600

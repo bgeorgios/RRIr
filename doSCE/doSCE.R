@@ -1,6 +1,6 @@
 # load packages
 packages <- c("hydromad")
-load <- lapply(packages, library, character.only = TRUE))
+load <- lapply(packages, library, character.only = TRUE)
 
 # drop R's scientic notation
 options("scipen" = 100)

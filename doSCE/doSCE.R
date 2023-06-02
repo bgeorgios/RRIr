@@ -114,6 +114,7 @@ doSCE <- function(pars) {
     nse <- readLines("optNSE.txt")
     nse[1] <- optfun
     write(nse, "optNSE.txt")
+    write(rri, "optRRI.txt")
   }
   return(fun)
 }

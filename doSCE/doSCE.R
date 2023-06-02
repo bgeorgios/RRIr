@@ -43,8 +43,7 @@ initpars <- sapply(params, mean)
 
 # set control options of SCE (see hydromad documentation...)
 control <- list(trace = 1,
-                ncomplex = 15,
-                maxit = 5)
+                ncomplex = 5)
 control <- modifyList(list(fnscale = -1), control)
 
 if (isTRUE(hydromad.getOption("trace"))) {

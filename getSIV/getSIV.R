@@ -14,7 +14,7 @@ month <- "09"
 # create url
 my.url <-
   paste0(
-    "https://hydrology.nws.noaa.gov/aorc-historic/AORC_",
+    "https://hydrology.nws.noaa.gov/pub/aorc-historic/AORC_",
     rfc,
     "_4km/",
     rfc,
@@ -50,14 +50,14 @@ for (f in rain.files) {
               nrow = dim(rain)[1],
               ncol = dim(rain)[2])
   mat[is.na(mat)] <- 0.0
-  write(c(step, dim(mat)[1], dim(mat)[2]),
+  write(c(step, dim(mat)[2], dim(mat)[1]),
         "rain.dat",
         ncol = 3,
         append = TRUE)
-  for (r in 1:ncol(mat)) {
-    write(mat[,r],
+  for (r in 1:row(mat)) {
+    write(mat[r,],
           "rain.dat",
-          ncol = dim(mat)[1],
+          ncol = dim(mat)[2],
           append = TRUE)
   }
   step <- step + 3600
